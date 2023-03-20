@@ -20,10 +20,10 @@ struct Main : Codable {
 }
 struct Weather : Codable {
     
-   let id : Int
-   let main : String
+   let id: Int
+   let main: String
    let description: String
-   let icon : Float
+   let icon: Float
     
     /*
     enum CodingKeys : String , CodingKey {
